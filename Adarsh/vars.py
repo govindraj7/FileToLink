@@ -12,7 +12,7 @@ class Var(object):
     API_ID = int(getenv('API_ID', '24191145'))
     API_HASH = str(getenv('API_HASH', '0c36521ebcad047d82a7a00430ee8780'))
     BOT_TOKEN = str(getenv('BOT_TOKEN', '7087013896:AAGH59FQyKZ0gNlQGlnRHdENxYiCUsOm0VU'))
-    name = str(getenv('name', 'ftolrobot'))
+    name = str(getenv('name', 'asdf'))
     SLEEP_THRESHOLD = int(getenv('SLEEP_THRESHOLD', '60'))
     WORKERS = int(getenv('WORKERS', '4'))
     BIN_CHANNEL = int(getenv('BIN_CHANNEL', '-1002223390672'))
@@ -36,5 +36,5 @@ class Var(object):
     else:
         URL = "http://{}/".format(FQDN)
     DATABASE_URL = str(getenv('DATABASE_URL', 'mongodb+srv://shashank:thanos2006@cluster0.qmqabf0.mongodb.net/?retryWrites=true&w=majority&appName=Cluster0'))
-    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'vj_botz'))
+    UPDATES_CHANNEL = str(getenv('UPDATES_CHANNEL', 'asdcfcg'))
     BANNED_CHANNELS = list(set(int(x) for x in str(getenv("BANNED_CHANNELS", "-1001362659779")).split())) 
